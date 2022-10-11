@@ -1,0 +1,8 @@
+package sec1;
+
+public class Ex3 {
+	private String name;
+	// 상수는 대문자로 선언
+	final static double PI = 3.14;
+	private int kor;
+}

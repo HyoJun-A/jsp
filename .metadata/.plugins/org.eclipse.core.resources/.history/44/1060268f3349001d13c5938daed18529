@@ -1,0 +1,25 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>데이터 받기</title>
+</head>
+<body>
+<% 
+	//get-set의 파라미터는 목적지 까지이기 때문에 그 이후로는 데이터 송수신이 불가능하다.
+	String id = request.getParameter("id");
+	String pw = request.getParameter("pw");
+	String name = request.getParameter("name");
+	String msg = "id : " + id + ", pw : " + pw + ", name : " + name;
+	/* response.sendRedirect("index.jsp?msg"+msg); */
+%>
+	<ul>
+		<li>id : <%=id %></li>
+		<li>pw : <%=pw %></li>
+		<li>name : <%=name %></li>
+		<a href=""></a>
+	</ul>
+</body>
+</html>
