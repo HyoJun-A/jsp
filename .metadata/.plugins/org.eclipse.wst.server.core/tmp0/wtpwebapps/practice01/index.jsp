@@ -70,7 +70,21 @@
 			}
 		%>
 	</div>
-	
+	<br><a href="login.jsp">로그인 창으로</a>
+	<% 
+		String id = (String) session.getAttribute("m_id");
+		if(id != null){
+	%>
+		<p><%= id%>님이 로그인 하셨습니다.</p>
+		<a href='logout.jsp'>로그아웃</a>
+	<% 
+		} else{
+	%>
+		<p>로그인 전 입니다.</p>
+	<% 
+		}
+	%>
+		
 </div>
 
 </body>

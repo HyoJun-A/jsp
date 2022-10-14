@@ -1,0 +1,16 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>로그인</title>
+</head>
+<body>
+	<form action="loginPro.jsp" method="post" name="login_form">
+		<input name="id" id="id" placeholder="아이디 입력">
+		<input name="pw" id="pw" placeholder="비밀번호 입력" type="password">
+		<input name="name" id="name" placeholder="이름입력">
+	</form>
+</body>
+</html>

@@ -14,10 +14,17 @@
 	String name = request.getParameter("name");
 	String msg = "id : " + id + ", pw : " + pw + ", name : " + name;
 	/* response.sendRedirect("index.jsp?msg"+msg); */
+	String mem[][] = new String[100][2];
+	int count = 0;
+	if(id != null && pw != null && name != null){
+		mem[count][0] = id;
+		mem[count][1] = pw;
+		count++;
+	}
 %>
 	<ul>
-		<li>id : <%=id %></li>
-		<li>pw : <%=pw %></li>
+		<li>id : <%=mem[0][0] %></li>
+		<li>pw : <%=mem[0][1] %></li>
 		<li>name : <%=name %></li>
 	</ul>
 	<a href="index.jsp">되돌아가기</a>
