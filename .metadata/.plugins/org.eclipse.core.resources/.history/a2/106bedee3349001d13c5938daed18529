@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
-    <wb-module deploy-name="practice00">
-        <property name="context-root" value="practice00"/>
-        <property name="java-output-path" value="/practice00/build/classes"/>
-    </wb-module>
-</project-modules>

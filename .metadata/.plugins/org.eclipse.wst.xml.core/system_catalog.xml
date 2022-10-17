@@ -187,4 +187,7 @@
   <system systemId="http://www.w3.org/2001/xml.xsd" uri="jar:file:/D:/ahj/eclipse_luna/eclipse/eclipse/plugins/org.eclipse.xsd_2.10.0.v20150123-0452.jar!/cache/www.w3.org/2001/xml.xsd"/>
   <uri name="http://www.w3.org/2001/XMLSchema" uri="jar:file:/D:/ahj/eclipse_luna/eclipse/eclipse/plugins/org.eclipse.xsd_2.10.0.v20150123-0452.jar!/cache/www.w3.org/2001/XMLSchema.xsd"/>
   <uri id="org.w3c.xinclude" name="http://www.w3.org/2001/XInclude" uri="jar:file:/D:/ahj/eclipse_luna/eclipse/eclipse/plugins/org.eclipse.wst.xsl.core_1.1.301.v201405151730.jar!/xslt-schemas/xinclude.xsd"/>
+  <public id="ruleset_2_0_0" publicId="http://pmd.sourceforge.net/ruleset/2.0.0" uri="jar:file:/D:/ahj/eclipse_luna/eclipse/eclipse/configuration/org.eclipse.osgi/867/0/.cp/target/lib/pmd-core.jar!/ruleset_2_0_0.xsd"/>
+  <public id="report_2_0_0" publicId="http://pmd.sourceforge.net/report/2.0.0" uri="jar:file:/D:/ahj/eclipse_luna/eclipse/eclipse/configuration/org.eclipse.osgi/867/0/.cp/target/lib/pmd-core.jar!/report_2_0_0.xsd"/>
+  <public id="rule-tests_1_0_0" publicId="http://pmd.sourceforge.net/rule-tests" uri="jar:file:/D:/ahj/eclipse_luna/eclipse/eclipse/plugins/net.sourceforge.pmd.eclipse.plugin_4.39.0.v20220930-1439-r.jar!/target/schema/rule-tests_1_0_0.xsd"/>
 </catalog>
